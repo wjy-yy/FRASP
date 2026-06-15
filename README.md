@@ -1,5 +1,7 @@
 # FRASP_review
 
+FRASP is a high-performance index for range-filtering approximate nearest neighbor search, using a first-split segment tree strategy with suffix/prefix HNSW graphs to answer queries efficiently with three index lookups.
+
 ### Start to Compile
 
 ```sh
