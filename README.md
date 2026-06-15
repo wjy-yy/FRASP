@@ -128,3 +128,15 @@ The baseline codes are available at:
 - SuperPostFiltering: [https://github.com/JoshEngels/RangeFilteredANN](https://github.com/JoshEngels/RangeFilteredANN)
 - ACORN: [https://github.com/guestrin-lab/ACORN](https://github.com/guestrin-lab/ACORN)
 - Milvus: [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
+
+## Baseline Parameters
+
+| Method | Parameters |
+|---|---|
+| **iRangeGraph** | WIT, YT-RGB: M=64; SIFT, GIST: M=16 (grid search); Deep10M: M=16 |
+| **SuperPostFiltering** | M=64, ef_con=500, β=2 |
+| **SeRF** | 2DSegmentGraph + MaxLeap, M=32, K=100 |
+| **WoW** | o=4, m=16, ω_c=128 (SIFT), ω_c=256 (others) |
+| **Milvus** | SIFT, Deep10M: M=16; WIT: M=64; others: M=32 |
+| **ACORN** | M=32, γ=12, M_β=64 |
+| **UNIFY (HSIG)** | S=8, M=16, m=16, ef_con=500, τ_A=0.01n, τ_B=0.5n |
