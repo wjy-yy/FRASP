@@ -121,22 +121,22 @@ The links of the datasets used in experiments are listed as follows:
 
 The baseline codes are available at:
 
+- **iRangeGraph**: [https://github.com/YuexuanXu7/iRangeGraph](https://github.com/YuexuanXu7/iRangeGraph)
+- **SuperPostFiltering**: [https://github.com/JoshEngels/RangeFilteredANN](https://github.com/JoshEngels/RangeFilteredANN)
+- **SeRF**: [https://github.com/rutgers-db/SeRF](https://github.com/rutgers-db/SeRF)
 - **WoW**: [https://github.com/nju-websoft/WoW](https://github.com/nju-websoft/WoW) (benchmark: [https://github.com/ziqiwww/wow_benchmark](https://github.com/ziqiwww/wow_benchmark))
-- **UNIFY**: [https://github.com/sjtu-dbgroup/UNIFY](https://github.com/sjtu-dbgroup/UNIFY)
-- iRangeGraph: [https://github.com/YuexuanXu7/iRangeGraph](https://github.com/YuexuanXu7/iRangeGraph)
-- SeRF: [https://github.com/rutgers-db/SeRF](https://github.com/rutgers-db/SeRF)
-- SuperPostFiltering: [https://github.com/JoshEngels/RangeFilteredANN](https://github.com/JoshEngels/RangeFilteredANN)
-- ACORN: [https://github.com/guestrin-lab/ACORN](https://github.com/guestrin-lab/ACORN)
-- Milvus: [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
+- **Milvus**: [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
+- **ACORN**: [https://github.com/guestrin-lab/ACORN](https://github.com/guestrin-lab/ACORN)
+- **UNIFY (HSIG)**: [https://github.com/sjtu-dbgroup/UNIFY](https://github.com/sjtu-dbgroup/UNIFY)
 
 ## Baseline Parameters
 
 | Method | Parameters |
 |---|---|
-| **iRangeGraph** | WIT, YT-RGB: M=64; SIFT, GIST: M=16 (grid search); Deep10M: M=16 |
-| **SuperPostFiltering** | M=64, ef_con=500, β=2 |
-| **SeRF** | 2DSegmentGraph + MaxLeap, M=32, K=100 |
-| **WoW** | o=4, m=16, ω_c=128 (SIFT), ω_c=256 (others) |
-| **Milvus** | SIFT, Deep10M: M=16; WIT: M=64; others: M=32 |
-| **ACORN** | M=32, γ=12, M_β=64 |
-| **UNIFY (HSIG)** | S=8, M=16, m=16, ef_con=500, τ_A=0.01n, τ_B=0.5n |
+| **iRangeGraph** | WIT, YT-RGB: $M=64$; SIFT, GIST: $M=16$ (grid search); Deep10M: $M=16$ |
+| **SuperPostFiltering** | $M=64$, $ef_{\text{con}}=500$, $\beta=2$ |
+| **SeRF** | 2DSegmentGraph + MaxLeap, $M=32$, $K=100$ |
+| **WoW** | $o=4$, $m=16$, $\omega_c=128$ (SIFT), $\omega_c=256$ (others) |
+| **Milvus** | SIFT, Deep10M: $M=16$; WIT: $M=64$; others: $M=32$ |
+| **ACORN** | $M=32$, $\gamma=12$, $M_\beta=64$ |
+| **UNIFY (HSIG)** | $S=8$, $M=16$, $m=16$, $ef_{\text{con}}=500$, $\tau_A=0.01n$, $\tau_B=0.5n$ |
