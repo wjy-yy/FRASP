@@ -1,4 +1,4 @@
-# FRASP_review
+# FRASP\[ICDE'27\] Range-Filtering Approximate Nearest Neighbor Search via First-Split Range Decomposition and Suffix-Prefix Indexing
 
 FRASP is a high-performance index for range-filtering approximate nearest neighbor search, using a first-split segment tree strategy with suffix/prefix HNSW graphs to answer queries efficiently with three index lookups.
 
